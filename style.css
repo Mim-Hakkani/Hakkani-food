@@ -1,0 +1,51 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+}
+
+h1{
+    
+    color: #585858;
+    font-weight: 600;
+}
+.header{
+    display: flex;
+}
+.head-left-text{
+    padding: 150px 107px;
+    width: 50%;
+    margin-left: 30px;
+}
+.head-left-text h1{
+    font-size: 48px;
+    font-style: initial;
+}
+.head-left-text p{
+    color: gray;
+    font-size: 15px;
+    width: 70%;
+    margin-bottom: 52px;
+}
+.head-left-text a{ 
+    text-decoration: none;
+    letter-spacing: 1px;
+    background-image: linear-gradient(to right,#ff995b,#ff6a50);
+    color: white;
+    padding: 18px 28px;
+    border-radius: 31px;
+    font-weight: 600;
+    margin-top: 0;
+    box-shadow: 1px 1px 5px orange;
+} 
+.head-img-right{
+    padding: 3px 0px;
+    margin-right: 40px;
+}
+.about-me{
+   background-image: url(images/shapes/7.png);
+   background-repeat: no-repeat;
+   height: 500px;
+   background-size: cover;
+}
