@@ -203,7 +203,7 @@ Reservation section
 
 	
 }
-
+/**** reservation form *****/
 .reservation-form{
     width: 60%;
     text-align: center;
@@ -261,6 +261,7 @@ input[type="submit"] {
 	margin: 25px auto;
 	display: block;
 }
+/* footer section area */
  footer {
 	background-color: #000;
 	padding: 25px 40px;
