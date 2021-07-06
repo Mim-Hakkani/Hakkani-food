@@ -74,3 +74,27 @@ height: 475px;
 	margin-bottom: 48px;
 	line-height: 35px;
 }
+/*
+food-menu
+*/
+.food-menu{
+    margin: 100px 0px;
+}
+.food-menu-title{
+    text-align: center;
+}
+.food-menu-title h1 {
+	font-size: 50px;
+	letter-spacing: 2px;
+	font-weight: 600;
+	padding: 5px 0px;
+}
+.food-menu-title p {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	color: #555151;
+	font-size: 16px;
+	line-height: 28px;
+	padding: 5px;
+}
