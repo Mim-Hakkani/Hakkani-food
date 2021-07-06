@@ -1,4 +1,18 @@
 
+/***************
+        1.typography
+        2.header area
+        3.about area
+        4.food menu
+        5. our clints 
+        6.our locations map and address
+        7.footer area
+
+*****************/
+
+
+/********** typography ************/
+
 body{
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
@@ -10,6 +24,9 @@ h1{
     color: #585858;
     font-weight: 600;
 }
+
+/****** header *************/
+
 .header{
     display: flex;
 }
@@ -28,6 +45,9 @@ h1{
     width: 70%;
     margin-bottom: 52px;
 }
+
+/************* about me ********/
+
 .my-details a ,.head-left-text a{ 
     text-decoration: none;
     letter-spacing: 1px;
@@ -74,9 +94,8 @@ height: 475px;
 	margin-bottom: 48px;
 	line-height: 35px;
 }
-/*
-food-menu
-*/
+
+/********* food menu **********/
 .food-menu{
     margin: 100px 0px;
 }
@@ -98,3 +117,36 @@ food-menu
 	line-height: 28px;
 	padding: 5px;
 }
+.food-menu-special{
+    display: flex;
+    margin-top: 60px;
+}
+.recipies {
+    width: 28%;
+    margin: 19px auto;
+    box-shadow: 10px 13px 17px gray;
+    padding: 31px 27px;
+    border-radius: 32px;
+    text-align: left;
+}
+.recipies img {
+	width: 92%;
+	height: 324px;
+	border-radius: 62px;
+	/* margin: 0 auto; */
+	/* display: block; */
+	padding: 19px;
+}
+.recipies h2 {
+	letter-spacing: 1px;
+	font-weight: 500;
+}
+.recipies p {
+	font-size: 15px;
+	color: #2b2424e6;
+	padding: 5px 5px 5px 0px;
+	text-align: justify;
+}
+
+
+ 
