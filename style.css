@@ -176,4 +176,62 @@ height: 475px;
 	font-weight: normal;
 }
 
- 
+/*
+Reservation section 
+*/
+.reservation{
+    display: flex;
+}
+.form-left-details {
+	width: 35%;
+	padding: 50px 69px;
+}
+.our-description-2 h2,.our-description-1 h2 {
+	font-weight: normal;
+	letter-spacing: 1px;
+	color: orange;
+	font-size: 33px;
+}
+.our-description-1 p {
+	font-size: 15px;
+	color: #594f4f;
+}
+.our-description-2 p {
+	font-family: 'Yomogi', cursive;
+
+	
+}
+
+.reservation-form{
+    width: 60%;
+    text-align: center;
+    margin-top: 50px;
+}
+input[type="text"] {
+	padding: 19px;
+	width: 41%;
+	margin-right: 13px;
+	margin-bottom: 26px;
+}
+input[type="date"], input[type="time"] {
+	padding: 19px;
+	width: 18%;
+	margin-right: 13px;
+	margin-bottom: 26px;
+}
+textarea {
+	width: 90%;
+	padding: 15px;
+    margin-bottom: 35px;
+}
+input[type="submit"] {
+	width: 25%;
+	padding: 16px 25px;
+	border-radius: 35px;
+	border: 0px;
+	background-image: linear-gradient(to right,orange,#f9664c);
+	font-size: 22px;
+	color: #fff;
+	font-weight: 800;
+	text-transform: capitalize;
+}
