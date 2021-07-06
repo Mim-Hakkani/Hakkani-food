@@ -5,8 +5,9 @@
         3.about area
         4.food menu
         5. our clints 
-        6.our locations map and address
-        7.footer area
+        6.reservation table 
+        7.footer top area
+        8.main footer
 
 *****************/
 
@@ -179,6 +180,7 @@ height: 475px;
 /*
 Reservation section 
 */
+
 .reservation{
     display: flex;
 }
@@ -234,4 +236,40 @@ input[type="submit"] {
 	color: #fff;
 	font-weight: 800;
 	text-transform: capitalize;
+}
+
+ /* footer top section */
+ .footer-top {
+	height: 454px;
+	margin-top: 150px;
+	background-color: rgba(253, 213, 193, 0.33);
+    display: flex;
+
+}
+ .food-maps,.food-testimonial,.opens-time{
+     width: 30%;
+     margin: 0 auto;
+ }
+ .food-testimonial p {
+	text-align: center;
+	font-size: 22px;
+	font-weight: normal;
+}
+ .food-testimonial img {
+	height: 240px;
+	width: 369px;
+	margin: 25px auto;
+	display: block;
+}
+ footer {
+	background-color: #000;
+	padding: 25px 40px;
+	height: 150px;
+	overflow: hidden;
+	margin-top: 0px;
+    text-align: center;
+}
+footer > p {
+	color: #fff;
+	font-size: 13px;
 }
