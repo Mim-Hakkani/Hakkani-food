@@ -33,7 +33,7 @@ h1{
 }
 .head-left-text{
     padding: 150px 107px;
-    width: 50%;
+    width: 70%;
     margin-left: 30px;
 }
 .head-left-text h1{
@@ -185,7 +185,7 @@ Reservation section
     display: flex;
 }
 .form-left-details {
-	width: 35%;
+	width: 33%;
 	padding: 50px 69px;
 }
 .our-description-2 h2,.our-description-1 h2 {
@@ -205,7 +205,7 @@ Reservation section
 }
 /**** reservation form *****/
 .reservation-form{
-    width: 60%;
+    width: 67%;
     text-align: center;
     margin-top: 50px;
 }
