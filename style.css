@@ -148,5 +148,32 @@ height: 475px;
 	text-align: justify;
 }
 
+/***************clints ***********/
+.clints {
+	display: flex;
+	text-align: center;
+	box-shadow: 0px 0px 13px gray;
+	margin: 150px;
+	padding: 70px;
+	/* border: 1px solid #b1a7a7; */
+}
+.clints h1 {
+	text-align: center;
+	display: block;
+	margin: 29px auto;
+	font-size: 68px;
+	color: #000;
+	letter-spacing: 1px;
+	padding: 0px;
+}
+.clints span {
+	color: #423e3e;
+	font-size: 8px;
+	display: block;
+	padding: 41px 0px;
+	font-size: 23px !important;
+	margin-left: 73px;
+	font-weight: normal;
+}
 
  
